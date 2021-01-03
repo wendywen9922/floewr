@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>on sale</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+body{background: rgba(80,0,30,0.5);}
+   p{align-items: center;
+   	color:red;
+   margin:5px;
+cursor:pointer;	
+    }
+p:hover{background:bule;
+	}
+	.icebear{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 10;
+background: rgba(80,0,30,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+	}
+
+
+.false{position:fixed;
+	top:0;
+	right: 0;
+	width: 9;
+	height:9;
+         z-index: 10;
+			
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	</style>
+</head>
+<body>
+<nav class="navigation" align="center">
+<tr>
+<th><a href='#frofile'>主頁</a></li>
+<th><a href='#concert'>商城</a></li>
+<th><a href='book.htm'target="_blank">特賣商品</a></li>
+<th><a href='project.htm'target="_blank">營業項目</a></li>
+<th><a href='form.htm'target="_blank">公司簡介</a></li>
+<th><a href='https://ccdm.nuu.edu.tw/'target="_blank">製作團隊</a></li>
+</tr>
+
+<p align="center" size="200%">特價商品</p>
+	<h1 align="center">只要999</h1>
+<section align= "center"> 
+	<h3 >花圈</h3>
+		<section class="performer">
+		<img src="2.jpg" width="250"height="200">
+		</section>
+		<h3>桌花</h3>
+		<p></p> 
+		</section>
+<section class="performer">
+		<img src="3.jpg" width='150'height='150'>
+		<h3>胸花</h3>
+		<p></p> 
+		</section>
+<section class="performer">
+		<img src="4.jpg" width='150'height='150'>
+		
+		</section>
+	<div class="icebear">
+		<img src="1.jpg">
+
+</div>
+<div class="false">
+	<img src="https://png.pngtree.com/element_our/20190601/ourmid/pngtree-black-fork-free-map-image_1344593.jpg" width="50"
+height="50" >
+</div>
+	
+
+
+
+
+<script type="text/javascript"> 
+		$('p').click(function(){
+			$('.icebear').slideToggle();
+                                           $('.false').slideToggle();
+                                                     
+});
+		$('.false').click(function(){
+			$('.false').slideToggle();
+                                            $('.icebear').slideToggle();
+		});
+
+</script>
+
+
+
+
+
+
+
+
+
+<section class="footer" id="footer" align="center">
+	<h2 class="textHidden"></h2>
+	<div id="footer-up">
+		<table class="table" align="center">
+			<thead>
+				<tr >
+					<th><a href="https://floralromancee.wordpress.com/"target=" blank">主頁</th>
+					<th><a href="http://120.105.150.46/hakkaonline/u0958005/shop/"target=" blank">商城</th>
+					<th><a href=""target=" blank">營業項目</th>
+					<th><a href=""target=" blank">製作團隊</th>
+					<th><a href=""target=" blank">公司簡介</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
